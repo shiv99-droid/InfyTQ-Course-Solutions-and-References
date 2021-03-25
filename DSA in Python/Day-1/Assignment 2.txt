@@ -38,7 +38,7 @@ class Service:
         list1=self.__car_list.copy()
         for car in list1:
             if car.get_registration_number()[0:2] == "KA":
-                self.__car_list.remove(car);
+                self.__car_list.remove(car)
 
 #Implement Service class here
 
